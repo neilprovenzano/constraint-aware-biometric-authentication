@@ -1,0 +1,18 @@
+{
+  "python": "3.12.4",
+  "numpy": "2.5.3",
+  "scipy": "1.18.1",
+  "pandas": "3.0.5",
+  "scikit-learn": "1.9.1",
+  "hardware": {
+    "computer": "MacBook Pro",
+    "processor": "Apple M3 Pro",
+    "execution": "CPU only",
+    "gpu_used": false
+  },
+  "notes": [
+    "Finalized experiments were executed on CPU.",
+    "CPU affinity and frequency were not controlled.",
+    "Per-experiment environment records are retained with the corresponding result artifacts where applicable."
+  ]
+}
