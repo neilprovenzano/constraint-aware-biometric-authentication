@@ -1,0 +1,40 @@
+{
+  "platform": "macOS-26.7-arm64-arm-64bit",
+  "system": "Darwin",
+  "release": "25.6.0",
+  "machine": "arm64",
+  "processor": "arm",
+  "python": "3.12.4 | packaged by Anaconda, Inc. | (main, Jun 18 2024, 10:07:17) [Clang 14.0.6 ]",
+  "numpy": "2.5.3",
+  "pandas": "3.0.5",
+  "scikit_learn": "1.9.1",
+  "cpu_count_logical": 11,
+  "timer": "time.perf_counter_ns",
+  "timing_batch_size": 1,
+  "cpu_affinity_controlled": false,
+  "cpu_frequency_controlled": false,
+  "note": "Desktop CPU characterization on the host OS; not a hard-real-time or embedded-hardware guarantee.",
+  "cpu_brand": "Apple M3 Pro",
+  "hardware_model": "Mac15,6",
+  "dataset": "DSL-StrongPasswordData.csv",
+  "split": "session",
+  "balance": "fixed",
+  "seed": 42,
+  "N_values": [
+    10,
+    50,
+    200
+  ],
+  "classifiers": [
+    "k-NN",
+    "LDA",
+    "Threshold",
+    "Linear SVM",
+    "MLP"
+  ],
+  "warmup_queries_per_subject_model_N": 100,
+  "timed_queries_per_subject_model_N": 1000,
+  "mlp_initializations": 3,
+  "preprocessing_in_end_to_end": true,
+  "raw_query_timing_saved": false
+}
